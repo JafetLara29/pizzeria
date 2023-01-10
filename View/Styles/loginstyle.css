@@ -1,0 +1,15 @@
+#container-login{
+    padding-top: 160px;
+    width: 300px;
+}
+#login-col{
+    width: 400px;
+}
+#register-link{
+    margin-top: 28px;
+    margin-bottom: 100px;
+}
+#btn{
+    background-color:rgb(0, 173, 181);
+    color: white;
+}

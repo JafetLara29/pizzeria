@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .display-6{
+    color:rgb(0, 173, 181);
+} */
+html, body{
+    height: 100%;
+}
+.row{
+    height: 100%;
+}
+#sidebar{
+    width: 95px;
+    height: 1700px;
+    position: fixed;
+    background-color: black;
+    
+    z-index: 10;
+}
+li{
+    padding-top: 50%;
+}
+#sidebar-icon{
+    color: white;
+}
+#sidebar-icon:hover{
+    color: rgb(0, 173, 181)
+}
+#general-static-row{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#general-static-row .card{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(99, 205, 210);
+    color: white;
+}
+#card-icon{
+    color: black;
+}
+#content{
+    margin-left: 100px;
+    background-image: url('../../Images/newlogotransparent.png');
+    /* background-image: url('../../Images/pizza-background.jpg'); */
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: fit-content;
+    height: fit-content;
+    overflow-x: hidden;
+}
+#note-row, #order-row{
+    justify-content: center;
+       
+}
+#cards-row{
+    background-color:rgb(99, 205, 210);
+    /* background-color: rgb(238, 238, 238); */
+    width: 100%;
+    margin-left: 1px;
+    /* margin-left: auto; */
+    padding-bottom: 40%;    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.col{
+    display: flex;
+    justify-content: center;
+}
+.card h5{
+    height: 50px;
+    overflow: auto;
+}
+#note-card{
+    width: 320px;
+    height: 260px;
+}
+#note-card p{
+    height: 70px;
+    overflow: auto;
+}
+#order-row .card{
+    
+    height: 450px;
+}
+#order-row .card h5{
+    height: 100px;
+}
+#order-row .card dl{
+    overflow: auto;
+    /* height: 150px; */
+}
+#delete-icon{
+    color: black;
+}
+#inventary-card img{
+    width: 290px;
+    height: 200px;
+    overflow: hidden;
+}
+#inventary-card{
+    width: 320px;
+    height: 400px;
+}
+#size-card{
+    width: 320px;
+    height: 250px;
+}
+#statistic-row{
+    padding-bottom: 100px;
+}
+#statistic-card-header{
+    background-color:rgb(99, 205, 210);
+
+}
+#statistic-row #card-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+#statistic-row .card{
+    width: 300px;
+}
+
+
+
+

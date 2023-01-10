@@ -1,0 +1,95 @@
+
+/* Parte de carousel */
+#container-carousel{
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-item{
+    margin-top: 60px;
+    background-size: cover;
+    height: 600px;
+}
+#carousel-item{
+    background-image: url('../../Images/Pizzas/pizza1.jpg');
+}
+#carousel-item2{
+    background-image: url('../../Images/Pizzas/pizza2.jpg');
+}
+#carousel-item3{
+    background-image: url('../../Images/Pizzas/pizza3.jpg');
+}
+.carousel-item p{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* Parte de card */
+.col{
+    display: flex;
+    justify-content: center;
+}
+#menu-title{
+    padding-top: 100px;
+}
+#pizzas{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+}
+/* Cards de menu */
+.card img{
+    width: 286px;
+    height: 200px;
+    overflow: hidden;
+}
+.card{
+    height: 400px;
+}
+/* Staff */
+#staff-title{
+    padding-top: 80px;
+}
+#staff-container{
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+/* Imagenes de staff */
+#staff{
+    padding-top: 100px;
+    border-radius: 50%;
+    padding: 12px;
+    
+}
+
+/* Contenedor del mapa y texto */
+#ubication-title{
+    padding-top: 80px;
+}
+#ubication-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#map{
+    width: 100%;
+    height: 400px;
+}
+#ubication-text{
+    display: flex;
+    align-items: center;
+}
+#ubication-container p{
+    padding: 20px;
+    text-align: center;
+}
+.btn{
+    background-color:rgb(0, 173, 181);
+    color: white;
+}

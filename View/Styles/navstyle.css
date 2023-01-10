@@ -1,0 +1,30 @@
+#nav{
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 20px; */
+    position: fixed;
+    width: 100%;
+    /* Para definir que elemento queda sobre que otro */
+    z-index: 10;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li a{
+    height: 40px;
+}
+
+/* Pie de pagina */
+footer{
+    color: white;
+}
+footer .row{
+    height: 100%;
+}
+
+footer .col{
+    flex-direction: column;
+    padding-bottom: 20px;
+}

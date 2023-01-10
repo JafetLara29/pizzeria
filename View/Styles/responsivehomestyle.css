@@ -1,0 +1,6 @@
+/* A partir de pantallas con 700px para abajo modificamos el relleno entre los iconos del sidebar para que se vean todos en la pantalla */
+@media screen and (max-height: 600px) {
+    li{
+        padding-top: 0;
+    }
+}
